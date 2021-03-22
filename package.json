@@ -5,7 +5,7 @@
     "main": "index.js",
     "scripts": {
         "commit": "git-cz",
-        "test":"node scripts/test.js",
+        "test": "node scripts/test.js",
         "es-check": "es-check es5 'lib/runtime/*.js'",
         "dev": "webpack-dev-server --config examples/webpack.config.js",
         "dev:build": "webpack --config examples/webpack.config.js",
@@ -15,7 +15,7 @@
         "!(example|dist|output|__mocks__)/**/*.js": [
             "eslint"
         ],
-        "lib/runtime/*.js" : [
+        "lib/runtime/*.js": [
             "es-check es5"
         ]
     },

@@ -22,7 +22,7 @@ module.exports = {
     },
     devtool: 'inline-source-map',
     // devtool: false,
-    mode: 'development',
+    mode: 'production',
     module: {
         rules: [
             {
